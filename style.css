@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*{
+  font-family: 'Muli', sans-serif;
+}
+body {
+  background-color: #3B3B98;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#header {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #e1086a;
+}
+
+.container {
+  background: #46027a;
+  padding: 2rem;
+  border-radius: 30px;
+  width: 420px;
+  box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2)!important;
+}
+
+.generator{
+  background: #46027a;
+  padding: 10px;
+  border-radius: 100px;
+  width: 45vw;
+  text-align: center;
+  box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2)!important;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  padding-left: 10px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 30px;
+}
+
+input::placeholder {
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  color: gray;
+}
+
+#feedback, #entropy, #breach {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.strong {
+  color: limegreen;
+}
+
+.medium {
+  color: orange;
+}
+
+.weak {
+  color: red;
+}
+
+
+a {
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.adjust{
+    background: #3B3B98;
+    height: 50px;
+}
