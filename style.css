@@ -11,15 +11,19 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 #header {
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 20px;
-  font-size: 48px;
+  font-size: clamp(2rem, 5vw, 48px);
   font-weight: bold;
   color: #e1086a;
+  text-align: center;
 }
 
 .container {
@@ -27,16 +31,27 @@ body {
   padding: 2rem;
   border-radius: 30px;
   width: 420px;
+  box-sizing: border-box;
   box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2)!important;
 }
 
 .generator{
   background: #46027a;
-  padding: 10px;
+  padding: 15px 20px;
   border-radius: 100px;
-  width: 45vw;
+  width: 420px;
+  max-width: 90%;
   text-align: center;
+  box-sizing: border-box;
   box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2)!important;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .generator {
+    width: 47vw;
+    max-width: 650px;
+  }
 }
 
 input {
